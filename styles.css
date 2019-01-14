@@ -1,0 +1,136 @@
+body {
+    height: 5000px;
+}
+
+html {
+    scroll-behavior: auto;
+}
+
+.a {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+}
+
+.b {
+    width: 100px;
+    height: 100px;
+    border: 2px dotted purple;
+}
+
+.c {
+    width: 100px;
+    height: 100px;
+    border: 2px dotted green;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+}
+
+.arrow-practice {
+    width: 0px;
+    height: 0px;
+    border-left: 100px solid black;
+    border-right: 100px solid red;
+    border-bottom: 100px solid yellow;
+    border-top: 100px solid green;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #f00;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid green;
+}
+
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid blue;
+}
+
+.flex1 {
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.flex2 {
+    align-items: baseline;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flex3 {
+    background: #B8C1C8;
+    /*border-bottom: 1px solid #989EA4;*/
+    /*border-top: 1px solid #717D85;*/
+    /*color: #FFF;*/
+    /*margin: 0;*/
+    /*padding: 2px 0 0 12px;*/
+    /*position: -webkit-sticky;*/
+    /*position: sticky;*/
+    /*top: -1px;*/
+    top: -1px;
+    position: sticky;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.truncate {
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 20px;
+    font-size: 1.3rem;
+    margin: 0;
+    background: white;
+    resize: horizontal;
+}
+
+.gradient {
+    height: 100px;
+    background-color: red;
+    background-image: radial-gradient(yellow, #f06d06);
+}
